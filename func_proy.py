@@ -39,6 +39,7 @@ def tema_claro(root, barra_menu_obj, menu_apariencia_obj, submenutemas_obj, menu
     menu_ayuda_obj.config(bg=bg_color, fg=fg_color)
     messagebox.showinfo("Tema", "Tema Claro aplicado.")
 
+
 def tema_oscuro(root, barra_menu_obj, menu_apariencia_obj, submenutemas_obj, menu_configuracion_obj, menu_ayuda_obj):
 
     bg_color = "#333333"
